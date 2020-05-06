@@ -2,9 +2,10 @@
     .recent-post__title a {
         color: $color-grey-one;
     }
-    // .recent-post__topics {
-
-    // }
+    .recent-post__topics a {
+        color: $color-blue-one;
+        font-size: 14px;
+    }
 }
 
 .post-topic {
