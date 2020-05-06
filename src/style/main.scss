@@ -11,15 +11,6 @@ body {
     justify-content: center;
 }
 
-.home {
-    height: 100vh;
-    width: 66vw;
-    display: grid;
-    align-content: space-around;
-    // justify-items: stretch;
-    // grid-template-rows: 1fr 2fr 1fr;
-}
-
 .logo-main,
 .recent-posts {
     display: grid;
@@ -32,9 +23,15 @@ ul {
     list-style-type: none;
 }
 
+
+
 $color-grey-one: #666666;
 $color-grey-two: #B3B3B3;
 $color-blue-one: #0079FF;
 
+@import'./mixins.scss';
 @import'./searchBar.scss';
 @import'./recentPosts.scss';
+@import'./post';
+@import'./home';
+@import'./results';
